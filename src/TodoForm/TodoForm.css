@@ -1,0 +1,59 @@
+form {
+    width: 90%;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+textarea{
+    margin: 20px;
+    padding: 10px;
+    border-color: #90dbf4;
+    resize: none;
+    outline: none;
+
+}
+textarea:hover{
+    background-color: #FDE4CF;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1E1E1F;
+
+
+}
+
+.container-btn-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn-cancel{
+    border: none;
+    cursor: pointer;
+    background-color: #fec5bb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.btn-agg{
+    border: none;
+    cursor: pointer;
+    background-color: #90dbf4;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}

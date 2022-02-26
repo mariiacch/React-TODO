@@ -1,0 +1,45 @@
+.contain-list{
+    width: auto;
+  border-radius: 10px;
+
+  
+}
+
+.listas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contain-text{
+    padding: 12px;
+    width: 100%;
+    align-items: center;
+}
+.contain-text--active{
+    text-decoration: line-through;
+}
+.itemTarea{
+    display: flex;
+align-items: flex-start;
+   width: 25px;
+  stroke: black;
+ 
+   
+}
+.itemTarea--active{
+stroke: green;
+}
+
+.itemClose{
+    width: 30px;
+    cursor: pointer;
+    
+}
+.itemClose:hover{
+    stroke: #ae2012;
+}
+
+.itemClose--active{
+
+}

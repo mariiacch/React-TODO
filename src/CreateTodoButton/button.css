@@ -1,0 +1,27 @@
+.contain-btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.title-add{
+    font-size: 24px;
+    text-align: center;
+}
+.btn-add{
+    z-index: 100;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-color: #48cae4;
+    color: #023e8a;
+   transform: rotate(0);
+   transition: .3s ease;
+    cursor: pointer;
+
+}
+
+.btn-add:hover{
+    transform: rotate(360deg);
+}
